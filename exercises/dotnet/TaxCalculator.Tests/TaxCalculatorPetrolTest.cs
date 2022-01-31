@@ -12,6 +12,7 @@ namespace TaxCalculator.Tests
         public void BeforeEach()
         {
             _taxCalculator = new DummyTaxCalculator();
+            // test travis in git
         }
 
         [Test]
